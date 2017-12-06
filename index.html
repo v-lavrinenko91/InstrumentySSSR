@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InstrumentSSSR</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+   <div class="wrapper">
+       <div class="top-header">
+         <h1>Токарный инструмент СССР</h1>
+         <div class="contacts">
+          +7(903)777-77-77 <br>
+          dimon@mail.ru
+         </div>
+       </div>
+      <div class="header-logo">
+        <img src="img/SSSR-znak.png" width="50" height="50" alt="znak">
+        <span class="logo-text">Гост и Качество</span>
+      </div>
+    </div>
+  </header>
+  <main>
+   <div class="wrapper">
+       <section class="catalog">
+        <div class="catalog-img">
+          <img src="img/instruments.jpg" alt="">
+        </div>
+        <div class="catalog-items">
+          <ul>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('1')">Измерительный</a>
+              <div class="hide-text" id="1">Описание, количество</div>
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('2')">Сверла</a>
+              <div class="hide-text" id="2">Описание, количество</div>
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('3')">Фрезы</a>
+              <div class="hide-text" id="3">Описание, количество</div>
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('4')">Станочная оснастка</a>
+              <div class="hide-text" id="4">Описание, количество</div>
+            </li>
+            <li> 
+              <a href="javascript:void(0)" onclick="showHide('5')">Резцы</a>
+              <div class="hide-text" id="5">Описание, количество</div>
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('6')">Метчики</a>
+              <div class="hide-text" id="6">Описание, количество</div>
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('7')">Плашки</a>
+              <div class="hide-text" id="7">Описание, количество</div>
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('8')">Твердосплавные пластины</a>
+              <div class="hide-text" id="8">Описание, количество</div>
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="showHide('9')">Развёртки</a>
+              <div class="hide-text" id="9">Описание, количество</div>
+            </li>
+          </ul>
+          <button class="popup-open" type="button">Сделать запрос</button>
+        </div>
+      </section>
+      <section class="delivery">
+       <h2>Доставка и оплата</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam perspiciatis, amet quae cum libero nisi illum nesciunt enim laborum iure minus quaerat dolores, maiores at commodi nihil unde maxime corporis eos id necessitatibus itaque! Corporis officia doloremque iure ratione fugit recusandae sequi sapiente, eos similique delectus? Iste tempore molestiae facilis quibusdam architecto amet quod dolorum totam, suscipit voluptas molestias, fugit cum dicta neque maiores laborum sequi necessitatibus aliquam, recusandae non!</p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div class="contacts">
+        +7(903)777-77-77 <br>
+        dimon@mail.ru
+      </div>
+    </div>
+  </footer>
+  <div class="popup">
+    <form action="" method="">
+      <input type="text" name="user-name" id="name" placeholder="Введите имя" required>
+      <input type="text" name="user-tel" id="tel" placeholder="Введите телефон" required>
+      <textarea name="user-order" id="" cols="24" rows="5">
+        Напишите ваш заказ
+      </textarea>
+      <input type="submit" value="Отправить заказ">
+    </form>
+    <button class="close" type="button">Закрыть</button>
+  </div>
+  <script src="js/popup.js"></script>
+  <script src="js/hide-text.js"></script>
+</body>
+</html>
